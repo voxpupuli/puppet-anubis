@@ -2,7 +2,7 @@
   "author": "Vox Pupuli",
   "license": "MIT",
   "name": "puppet-anubis",
-  "version": "0.0.1-rc0",
+  "version": "1.0.0",
   "summary": "A Puppet module to install Anubis",
   "source": "https://github.com/voxpupuli/puppet-anubis",
   "dependencies": [
