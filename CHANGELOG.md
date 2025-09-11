@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v1.1.0](https://github.com/voxpupuli/puppet-anubis/tree/v1.1.0) (2025-09-11)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-anubis/compare/v1.0.0...v1.1.0)
+
+**Implemented enhancements:**
+
+- Update to Anubis 1.22 [\#4](https://github.com/voxpupuli/puppet-anubis/pull/4) ([evgeni](https://github.com/evgeni))
+
 ## [v1.0.0](https://github.com/voxpupuli/puppet-anubis/tree/v1.0.0) (2025-07-11)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-anubis/compare/a36fe24b98c8eb34c6908dca681580d97fb1ac7d...v1.0.0)
