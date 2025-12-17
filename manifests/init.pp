@@ -8,6 +8,7 @@ class anubis (
   $package_url = "https://github.com/TecharoHQ/anubis/releases/download/v${package_version}/anubis-${package_version}-1.${facts['os']['architecture']}.rpm"
 
   package { 'anubis':
+    ensure => $package_version,
     source => $package_url,
   }
 }
