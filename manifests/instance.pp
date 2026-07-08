@@ -49,8 +49,8 @@ define anubis::instance (
   $service_ensure = $ensure == 'present'
 
   service { "anubis@${title}":
-    ensure  => $service_ensure,
-    enable  => $service_ensure,
-    require => Package['anubis'],
+    ensure    => $service_ensure,
+    enable    => $service_ensure,
+    subscribe => Package['anubis'],
   }
 }
