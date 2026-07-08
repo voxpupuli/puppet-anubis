@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v2.0.0](https://github.com/voxpupuli/puppet-anubis/tree/v2.0.0) (2026-07-08)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-anubis/compare/v1.2.0...v2.0.0)
+
+**Breaking changes:**
+
+- Drop support for Puppet, bump minimum OpenVox version to 8.19 [\#12](https://github.com/voxpupuli/puppet-anubis/pull/12) ([evgeni](https://github.com/evgeni))
+
+**Implemented enhancements:**
+
+- Add support for EL10 [\#13](https://github.com/voxpupuli/puppet-anubis/pull/13) ([evgeni](https://github.com/evgeni))
+- Update Anubis to 1.25.0 [\#10](https://github.com/voxpupuli/puppet-anubis/pull/10) ([evgeni](https://github.com/evgeni))
+- Allow puppetlabs/stdlib 10.x [\#9](https://github.com/voxpupuli/puppet-anubis/pull/9) ([evgeni](https://github.com/evgeni))
+
+**Fixed bugs:**
+
+- require package for the service, so it gets restarted on upgrade [\#8](https://github.com/voxpupuli/puppet-anubis/pull/8) ([evgeni](https://github.com/evgeni))
+
 ## [v1.2.0](https://github.com/voxpupuli/puppet-anubis/tree/v1.2.0) (2025-12-17)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-anubis/compare/v1.1.0...v1.2.0)
