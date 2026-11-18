@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v2.2.0](https://github.com/voxpupuli/puppet-anubis/tree/v2.2.0) (2026-11-18)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-anubis/compare/v2.1.0...v2.2.0)
+
+**Implemented enhancements:**
+
+- Update Anubis to 1.28.2 [\#21](https://github.com/voxpupuli/puppet-anubis/pull/21) ([evgeni](https://github.com/evgeni))
+- Update requirements to allow OpenVox 9 [\#19](https://github.com/voxpupuli/puppet-anubis/pull/19) ([sebastianrakel](https://github.com/sebastianrakel))
+
 ## [v2.1.0](https://github.com/voxpupuli/puppet-anubis/tree/v2.1.0) (2026-09-30)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-anubis/compare/v2.0.0...v2.1.0)
